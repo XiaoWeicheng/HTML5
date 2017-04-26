@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>想不想看,想不想看</title>
+		<link rel="icon" href="img/Baymax.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="img/Baymax.ico" type="image/x-icon" />
+		<link rel="bookmark" href="img/Baymax.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/Reset.css" />
+		<link rel="stylesheet" href="css/Login.css" />
+		<script type="text/javascript" src="script/Login.js" ></script>
+	</head>
+	<body>
+		<div class="wrapLogin">
+			<div class="login">
+				<div class="icon">
+					<img src="img/icon.jpg" />
+				</div>
+				<form id="login" action="BabyOnly.html" onsubmit="return checkPassword()">
+					<div class="password">
+						<input id="password" value="输入口令才让看^_^" onfocus="clearText()" onblur="checkText()" />
+					</div>
+					<div class="button">
+						<input type="submit" id="button" value="我要看! 我要看! "/>
+					</div>
+				</form>
+			</div>
+			<div id="tips" class="tips">
+				<marquee class="scrollTips">口令竟然错了→_→</marquee>
+			</div>
+			<embed src="sound/Faded.mp3" hidden="true" autostart="true" loop="true"/>
+		</div>
+	</body>
+</html>

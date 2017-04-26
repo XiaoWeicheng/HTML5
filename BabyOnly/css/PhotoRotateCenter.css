@@ -1,0 +1,88 @@
+.wrap .photoRotateCenter{float:left;width: 800px;height: 120px;margin:0px auto;padding-top: 300px;}
+.photoRotateCenter .stage{width: 100%;height: 100%;perspective: 1000px;margin: 0px auto;}
+.photoRotateCenter .stage .container{width: 120px;height: 100%;position: relative;margin: 0px auto;transform-style: preserve-3d;perspective-origin: 50% 50%;animation: photoRotate ease-in-out 48s infinite 1s;}
+.photoRotateCenter .stage .container:hover{animation-play-state: paused;}
+.photoRotateCenter .stage .container .image{width: 100%;height: 100%;position: absolute;top: 0%;left: 0%;transition: all 0.5s ease 0s;}
+.photoRotateCenter .stage .container .image img{width: 100%;height: 100%;box-shadow: 0px 0px 50px rgba(128,128,128,0.8);border-radius: 33%;}
+.photoRotateCenter .stage .container .image:nth-child(1){transform: rotateY(0deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(2){transform: rotateY(30deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(3){transform: rotateY(60deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(4){transform: rotateY(90deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(5){transform: rotateY(120deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(6){transform: rotateY(150deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(7){transform: rotateY(180deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(8){transform: rotateY(210deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(9){transform: rotateY(240deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(10){transform: rotateY(270deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(11){transform: rotateY(300deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:nth-child(12){transform: rotateY(330deg) translateZ(400px);}
+.photoRotateCenter .stage .container .image:active{width: 200%;height: 200%;top: -50%;left: -50%;}
+@keyframes photoRotate{
+	0%{transform: rotateY(0deg);}
+	8.333%{transform: rotateY(30deg);}
+	16.667%{transform: rotateY(60deg);}
+	25%{transform: rotateY(90deg);}
+	33.333%{transform: rotateY(120deg);}
+	41.667%{transform: rotateY(150deg);}
+	50%{transform: rotateY(180deg);}
+	58.333%{transform: rotateY(210deg);}
+	66.667%{transform: rotateY(240deg);}
+	75%{transform: rotateY(270deg);}
+	83.333%{transform: rotateY(300deg);}
+	91.667%{transform: rotateY(330deg);}
+	100%{transform: rotateY(360deg);}
+}
+@media only screen and (min-width:1280px) and (max-width: 1439px){
+.wrap .photoRotateCenter{width: 712px;height: 106px;padding-top: 266px;}
+.photoRotateCenter .stage{perspective: 888px;}
+.photoRotateCenter .stage .container{width: 106px;}
+.photoRotateCenter .stage .container .image img{box-shadow: 0px 0px 44px rgba(128,128,128,0.8);}
+.photoRotateCenter .stage .container .image:nth-child(1){transform: rotateY(0deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(2){transform: rotateY(30deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(3){transform: rotateY(60deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(4){transform: rotateY(90deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(5){transform: rotateY(120deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(6){transform: rotateY(150deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(7){transform: rotateY(180deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(8){transform: rotateY(210deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(9){transform: rotateY(240deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(10){transform: rotateY(270deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(11){transform: rotateY(300deg) translateZ(356px);}
+.photoRotateCenter .stage .container .image:nth-child(12){transform: rotateY(330deg) translateZ(356px);}
+}
+@media only screen and (min-width:960px) and (max-width: 1279px){
+.wrap .photoRotateCenter{width: 534px;height: 80px;padding-top: 200px;}
+.photoRotateCenter .stage{perspective: 666px;}
+.photoRotateCenter .stage .container{width: 80px;}
+.photoRotateCenter .stage .container .image img{box-shadow: 0px 0px 33px rgba(128,128,128,0.8);}
+.photoRotateCenter .stage .container .image:nth-child(1){transform: rotateY(0deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(2){transform: rotateY(30deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(3){transform: rotateY(60deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(4){transform: rotateY(90deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(5){transform: rotateY(120deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(6){transform: rotateY(150deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(7){transform: rotateY(180deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(8){transform: rotateY(210deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(9){transform: rotateY(240deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(10){transform: rotateY(270deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(11){transform: rotateY(300deg) translateZ(266px);}
+.photoRotateCenter .stage .container .image:nth-child(12){transform: rotateY(330deg) translateZ(266px);}
+}
+@media only screen and (min-width:720px) and (max-width: 959px){
+.wrap .photoRotateCenter{width: 400px;height: 60px;padding-top: 150px;}
+.photoRotateCenter .stage{perspective: 500px;}
+.photoRotateCenter .stage .container{width: 60px;}
+.photoRotateCenter .stage .container .image img{box-shadow: 0px 0px 25px rgba(128,128,128,0.8);}
+.photoRotateCenter .stage .container .image:nth-child(1){transform: rotateY(0deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(2){transform: rotateY(30deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(3){transform: rotateY(60deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(4){transform: rotateY(90deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(5){transform: rotateY(120deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(6){transform: rotateY(150deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(7){transform: rotateY(180deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(8){transform: rotateY(210deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(9){transform: rotateY(240deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(10){transform: rotateY(270deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(11){transform: rotateY(300deg) translateZ(200px);}
+.photoRotateCenter .stage .container .image:nth-child(12){transform: rotateY(330deg) translateZ(200px);}
+}
